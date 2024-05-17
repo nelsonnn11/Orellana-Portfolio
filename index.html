@@ -16,8 +16,13 @@
   <header>
     <nav class="navbar">
       <div class="container">
-        <a class="navbar-brand" href="#">Nelson's Portfolio</a>
-        <ul class="nav-links">
+        <a id="link" class="navbar-brand" href="#">Nelson's Portfolio</a>
+        <div class="menu-icon" id="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -33,35 +38,22 @@
       <div class="container">
         <h1>About Me</h1>
         <p>Welcome to my portfolio! I'm Nelson, a web developer passionate about creating engaging and functional websites.</p>
-        <section id="gallery" class="section">
-            <div class="container">
-    
-              <div class="image-grid">
-                <div class="image-item">
-                  <img src="img/image1.jpg" alt="Image 1">
-                </div>
-                <div class="image-item">
-                  <img src="img/image2.jpg" alt="Image 2">
-                </div>
-                <div class="image-item">
-                    <img src="img/image2.jpg" alt="Image 2">
-                  </div>
-    </div>
-    </section>
-
-    <section id="education" class="section">
-      <div class="container">
-        <h1>Education</h1>
-        <p>I am a senior at Freehold High School in New Jersey. I've been part of the Web Design Program for three years, learning HTML, CSS, and JavaScript.</p>
       </div>
     </section>
 
-    <section id="projects" class="section">
+    <section id="gallery" class="section">
       <div class="container">
-        <h1>Projects</h1>
-        <p>Check out some of my projects above!</p>
-        <div class="project-list">
-          <!-- Add project cards here -->
+        <h1>Gallery</h1>
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="img/image1.jpg" alt="Image 1">
+          </div>
+          <div class="image-item">
+            <img src="img/image2.jpg" alt="Image 2">
+          </div>
+          <div class="image-item">
+            <img src="img/image3.jpg" alt="Image 3">
+          </div>
         </div>
       </div>
     </section>
@@ -73,24 +65,23 @@
       </div>
     </section>
 
-     <!-- New section for images -->
-     <section id="gallery" class="section">
-        <div class="container">          <div class="image-grid">
-            <div class="image-item">
-              <img src="img/me.png" alt="Image 1">
-            </div>
-            <div class="image-item">
-              <img src="img/sunset.png" alt="Image 2">
-            </div>
-
+    <!-- New section for additional images -->
+    <section id="additional-gallery" class="section">
+      <div class="container">
+        <h1>Additional Images</h1>
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="img/m.png" alt="Image 1">
+          </div>
+          <div class="image-item">
+            <img src="img/unset.png" alt="Image 2">
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Nelson's Portfolio</p>
-    </div>
-  </footer>
 
   <script src="main.js"></script>
 </body>
 
+</html>
