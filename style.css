@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff4081;
+  color: #73ddf7;
 }
 
 section {
@@ -75,7 +75,7 @@ section {
 }
 
 #contact a {
-  color: #25e0f8;
+  color: #85baff;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -84,7 +84,26 @@ section {
   color: #e040fb;
 }
 
-h1, h2, h3 {
+.photo-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.photo-row img {
+  width: 22%;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-row img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2,
+h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -100,7 +119,7 @@ h2::after {
   content: '';
   width: 50%;
   height: 2px;
-  background-color: #22b0f7;
+  background-color: #73ddf7;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
