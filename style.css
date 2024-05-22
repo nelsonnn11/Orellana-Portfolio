@@ -13,9 +13,6 @@ body {
 header {
   background-color: #1f1f1f;
   color: #e0e0e0;
-header {
-  background-color: #1f1f1f;
-  color: #e0e0e0;
   padding: 1rem 0;
   text-align: center;
   position: sticky;
@@ -30,19 +27,15 @@ header {
 
 header:hover {
   background-color: #333;
-header:hover {
-  background-color: #333;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
-nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav ul li {
 nav ul li {
   display: inline;
   margin: 0 1rem;
@@ -51,16 +44,13 @@ nav ul li {
 
 nav ul li a {
   color: #e0e0e0;
-nav ul li a {
-  color: #e0e0e0;
   text-decoration: none;
   font-weight: bold;
   font-weight: bold;
   transition: color 0.3s;
 }
 
-nav ul li a:hover {
-  color: #73ddf7;
+
 nav ul li a:hover {
   color: #73ddf7;
 }
