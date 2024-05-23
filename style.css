@@ -164,3 +164,15 @@ img {
   font-size: 15px;
   padding-bottom: 10px;
 }
+
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.image-row img {
+  width: 30%;
+  height: auto;
+}
